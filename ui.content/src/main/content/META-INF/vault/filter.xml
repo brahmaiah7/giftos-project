@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/giftos" mode="merge"/>
+    <filter root="/content/giftos" mode="merge"/>
+    <filter root="/content/dam/giftos" mode="merge">
+        <exclude pattern="/content/dam/giftos(/.*)?"/>
+        <include pattern="/content/dam/giftos/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/giftos/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/giftos" mode="merge"/>
+</workspaceFilter>

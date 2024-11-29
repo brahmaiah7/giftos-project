@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/giftos/clientlibs"/>
+    <filter root="/apps/giftos/components"/>
+    <filter root="/apps/giftos/i18n"/>
+</workspaceFilter>
