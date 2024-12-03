@@ -1,0 +1,64 @@
+<section class="info_section layout_padding2-top">
+    <!-- Social Container -->
+    <div class="social_container">
+        <div class="social_box d-flex justify-content-center">
+            <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Info Container -->
+    <div class="info_container">
+        <div class="container">
+            <div class="row">
+                <!-- Footer List 1 -->
+                
+                    <sly data-sly-resource="${'footer-list-1' @resourceType='giftos/components/footer-list'}"></sly>
+                
+
+                <!-- Newsletter -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="info_form">
+                        <h5>Newsletter</h5>
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email">
+                            <button>
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Footer List 2 -->
+                
+                    <sly data-sly-resource="${'footer-list-2' @resourceType='giftos/components/footer-list'}"></sly>
+                
+
+                <!-- Contact Us -->
+                
+                    <sly data-sly-resource="${'footer-list-4' @resourceType='giftos/components/contactus'}"></sly>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer_section">
+        <div class="container">
+            <p>
+                © <span id="displayYear">2024</span> All Rights Reserved By
+                <a href="https://html.design/">Free Html Templates</a>
+            </p>
+        </div>
+    </footer>
+</section>

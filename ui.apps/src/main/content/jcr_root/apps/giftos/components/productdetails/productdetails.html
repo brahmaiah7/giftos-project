@@ -1,0 +1,42 @@
+<section class="shop_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                Latest Products
+            </h2>
+        </div>
+        <div class="row" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <sly data-sly-use.model="com.giftos.project.core.models.ProductDetailsModel">
+                <sly data-sly-list.product="${model.products}">
+                    <div class="col-sm-6 col-md-4 col-lg-3" style="flex: 1 1 calc(25% - 20px); box-sizing: border-box;">
+                        <div class="box" style="width: 100%; max-width: 250px; border: 1px solid #ddd; padding: 20px; border-radius: 5px; text-align: center; background-color:#eeeeee;">
+                            <a href="">
+                                <div data-sly-test="${product.productImage}" class="img-box" style="margin-bottom: 10px;">
+                                    <img src="${product.productImage @ context='uri'}" alt="${product.imageAltText}" style="max-width: 100%; height: auto; border-radius: 5px;" />
+                                </div>
+                                <div class="detail-box">
+                                    <h6 style="font-size: 1rem; font-weight: bold; margin-bottom: 5px;">
+                                        ${product.productTitle}
+                                    </h6>
+                                    <span style="font-size: 1rem; color:red;">
+                                        Price  $${product.productPrice}
+                                    </span>
+                                </div>
+                                <div class="new" >
+                                    <span>
+                                        New
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </sly>
+            </sly>
+            <div class="btn-box">
+                <a href="">
+                  View All Products
+                </a>
+              </div>
+        </div>
+    </div>
+</section>

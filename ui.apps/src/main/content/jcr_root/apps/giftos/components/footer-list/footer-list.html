@@ -1,0 +1,18 @@
+<div class="col-md-6 col-lg-3">
+    <h6>
+        ${properties.footerTitle}
+    </h6>
+    <p>
+        ${properties.text}
+    </p>
+  </div>
+
+<div class="newsletter" data-sly-test="${properties.includeSubscribeForm == 'true'}">
+    <p>
+       ${properties.text @context='html'}
+    </p>
+    <form>
+        <input class="form-control" type="email" placeholder="Your email here">
+        <button class="btn">Submit</button>
+    </form>
+</div>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2024-12-03T15:23:09.506+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/giftos/settings/wcm/templates/top-bar"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="index"
+        sling:resourceType="giftos/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="giftos/components/container"
+            layout="responsiveGrid">
+            <container_541474694
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="giftos/components/container">
+                <offers
+                    jcr:created="{Date}2024-12-03T11:19:32.176+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-12-03T11:20:23.270+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="giftos/components/offers">
+                    <offerList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            offerDescription="variations of passages of Lorem Ipsum available"
+                            offerImage="/content/dam/newsportal/images/truck.svg"
+                            offerTitle="Fast Delivery"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            offerDescription="variations of passages of Lorem Ipsum available"
+                            offerImage="/content/dam/newsportal/images/free.svg"
+                            offerTitle="Free Shiping"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            offerDescription="variations of passages of Lorem Ipsum available"
+                            offerImage="/content/dam/newsportal/images/high-quality.svg"
+                            offerTitle="Best Quality"/>
+                    </offerList>
+                </offers>
+                <productdetails
+                    jcr:created="{Date}2024-12-03T11:30:42.719+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-12-03T12:15:17.215+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="giftos/components/productdetails">
+                    <productList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Watch Image Missing"
+                            productPrice="993"
+                            productTitle="Watch"
+                            productUpload="/content/dam/giftos/images/p2.png"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Ring Image Missing"
+                            productPrice="199"
+                            productTitle="Ring"
+                            productUpload="/content/dam/giftos/images/p8.png"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Flower Boque Missing"
+                            productPrice="499"
+                            productTitle="Boquet"
+                            productUpload="/content/dam/giftos/images/p6.png"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Red Rose Image Missing"
+                            productPrice="1999"
+                            productTitle="Red Roses"
+                            productUpload="/content/dam/giftos/images/p4.png"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="missing"
+                            productPrice="499"
+                            productTitle="Teddy Bear"
+                            productUpload="/content/dam/giftos/images/p5.png"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Purse Image Missing"
+                            productPrice="599"
+                            productTitle="Purse"
+                            productUpload="/content/dam/giftos/images/purse.png"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Ring Missing"
+                            productPrice="99"
+                            productTitle="Ring"
+                            productUpload="/content/dam/giftos/images/p1.png"/>
+                        <item7
+                            jcr:primaryType="nt:unstructured"
+                            altTxt="Toy Missing"
+                            productPrice="199"
+                            productTitle="Toy"
+                            productUpload="/content/dam/giftos/images/p3.png"/>
+                    </productList>
+                </productdetails>
+                <gifts
+                    jcr:created="{Date}2024-12-03T14:34:32.350+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-12-03T14:35:20.584+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="giftos/components/gifts"
+                    backgroundImage="/content/dam/giftos/images/saving-img.png"
+                    giftDescription="Qui ex dolore at repellat, quia neque doloribus omnis adipisci, ipsum eos odio fugit ut eveniet blanditiis praesentium totam non nostrum dignissimos nihil eius facere et eaque. Qui, animi obcaecati."
+                    gifts="false"
+                    giftTitle="Best Savings on new arrivals">
+                    <button1
+                        jcr:lastModified="{Date}2024-12-03T14:41:05.584+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Buy Now"
+                        sling:resourceType="newsportal/components/button"
+                        linkTarget="_self"
+                        linkURL="/content/newsportal/us/en/templates/demo-1"/>
+                    <button2
+                        jcr:lastModified="{Date}2024-12-03T14:41:15.554+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="See More"
+                        sling:resourceType="newsportal/components/button"
+                        linkTarget="_self"
+                        linkURL="/content/giftos/us/en/index"/>
+                    <container1
+                        jcr:lastModified="{Date}2024-12-03T14:50:49.776+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Buy Now"
+                        sling:resourceType="newsportal/components/button"
+                        linkTarget="_self"
+                        linkURL="https://rightshift.in/"/>
+                </gifts>
+                <gifts_1043686745
+                    jcr:created="{Date}2024-12-03T14:35:27.546+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2024-12-03T14:35:59.988+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="giftos/components/gifts"
+                    backgroundImage="/content/dam/giftos/images/gifts.png"
+                    giftDescription="Omnis ex nam laudantium odit illum harum, excepturi accusamus at corrupti, velit blanditiis unde perspiciatis, vitae minus culpa? Beatae at aut consequuntur porro adipisci aliquam eaque iste ducimus expedita accusantium?"
+                    gifts="true"
+                    giftTitle="Gifts for your loved ones">
+                    <button1
+                        jcr:lastModified="{Date}2024-12-03T14:48:02.385+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Buy Now"
+                        sling:resourceType="newsportal/components/button"
+                        linkTarget="_self"
+                        linkURL="/content/newsportal/us/en/new-sportal/product-card"/>
+                    <button2
+                        jcr:lastModified="{Date}2024-12-03T14:41:30.464+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="See More"
+                        sling:resourceType="newsportal/components/button"
+                        linkTarget="_self"
+                        linkURL="https://rightshift.in/"/>
+                </gifts_1043686745>
+            </container_541474694>
+        </root>
+    </jcr:content>
+</jcr:root>

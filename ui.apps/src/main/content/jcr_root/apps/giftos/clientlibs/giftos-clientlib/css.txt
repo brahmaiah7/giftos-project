@@ -6,3 +6,4 @@ owl.carousel.min.css
 responsive.css
 style.css
 font-awesome.min.css
+grid.css
