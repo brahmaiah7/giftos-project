@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:dialogMode="edit"
+    jcr:primaryType="cq:Dialog"
+    jcr:title="Column Grid"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <columns
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                fieldLabel="Number of Columns"
+                name="./columns"
+                required="true">
+                <items jcr:primaryType="nt:unstructured">
+                    <one
+                        jcr:primaryType="nt:unstructured"
+                        text="1 Column"
+                        value="1"/>
+                    <two
+                        jcr:primaryType="nt:unstructured"
+                        text="2 Columns"
+                        value="2"/>
+                    <three
+                        jcr:primaryType="nt:unstructured"
+                        text="3 Columns"
+                        value="3"/>
+                    <four
+                        jcr:primaryType="nt:unstructured"
+                        text="4 Columns"
+                        value="4"/>
+                </items>
+            </columns>
+        </items>
+    </content>
+</jcr:root>

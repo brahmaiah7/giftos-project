@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2024-12-02T16:10:31.425+05:30"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/giftos/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -13,22 +15,39 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="giftos/components/container"
             layout="simple">
-            <navigation
+            <navigationbar
+                jcr:created="{Date}2024-11-29T15:20:06.198+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-12-02T16:10:31.209+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="giftos/components/navigation"
-                collectAllPages="false"
-                navigationRoot="/content/giftos/us/en"
-                skipNavigationRoot="false"
-                structureDepth="1"/>
-            <languagenavigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="giftos/components/languagenavigation"
-                navigationRoot="/content/giftos/us"
-                structureDepth="2"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="giftos/components/search"
-                searchRoot="/content/giftos/us"/>
+                sling:resourceType="giftos/components/navigationbar"
+                linkPath="abc"
+                linkTitle="[Home]">
+                <navLinks jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        linkPath="file:///C:/Users/M%20K%20T/Desktop/New%20folder/giftos-html/index.html"
+                        linkTitle="HOME"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        linkPath="file:///C:/Users/M%20K%20T/Desktop/New%20folder/giftos-html/shop.html"
+                        linkTitle="SHOP"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        linkPath="file:///C:/Users/M%20K%20T/Desktop/New%20folder/giftos-html/why.html"
+                        linkTitle="WHY US"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        linkPath="file:///C:/Users/M%20K%20T/Desktop/New%20folder/giftos-html/testimonial.html"
+                        linkTitle="TESTMONIAL"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        linkPath="file:///C:/Users/M%20K%20T/Desktop/New%20folder/giftos-html/contact.html"
+                        linkTitle="CONTACT US"/>
+                </navLinks>
+            </navigationbar>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>
