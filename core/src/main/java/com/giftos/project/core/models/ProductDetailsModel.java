@@ -7,9 +7,8 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
-import java.util.Collections;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 @Model(
         adaptables = Resource.class,

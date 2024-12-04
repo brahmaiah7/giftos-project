@@ -1,0 +1,6 @@
+{
+  "scripts":[
+    "create service user giftosservice",
+    "set ACL for giftosservice\r\n  allow jcr:all on /content/giftos\r\n  allow jcr:read on /\r\nend\r\n"
+  ]
+}
